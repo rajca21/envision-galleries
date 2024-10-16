@@ -146,7 +146,7 @@ const ExhibitsList = ({
               <LoadingSpinnerSimple />
             ) : filteredExhibits.length > 0 ? (
               <>
-                {filteredExhibits.map((exhibit) => (
+                {filteredExhibits?.map((exhibit) => (
                   <Link to={`/exhibits/${exhibit._id}`} key={exhibit._id}>
                     <div
                       data-aos='fade-up'

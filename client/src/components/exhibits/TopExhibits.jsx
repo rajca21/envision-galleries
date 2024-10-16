@@ -42,7 +42,7 @@ const TopExhibits = () => {
             <LoadingSpinnerSimple />
           ) : (
             <>
-              {topExhibits.map((exhibit) => (
+              {topExhibits?.map((exhibit) => (
                 <Link to={`exhibits/${exhibit._id}`} key={exhibit._id}>
                   <div className='w-[210px] rounded-xl bg-white hover:bg-black/80 hover:text-white relative shadow-xl duration-300 group max-w-[300px]'>
                     <div className='h-[150px] flex justify-center'>
