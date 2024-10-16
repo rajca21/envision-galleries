@@ -1,7 +1,10 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/exhibits';
+const API_URL =
+  import.meta.env.MODE === 'development'
+    ? 'http://localhost:8000/api/exhibits'
+    : '/api/exhibits';
 axios.defaults.withCredentials = true;
 
 export const useExhibitStore = create((set) => ({

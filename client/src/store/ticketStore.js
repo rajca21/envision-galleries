@@ -1,7 +1,10 @@
 import { create } from 'zustand';
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api/tickets';
+const API_URL =
+  import.meta.env.MODE === 'development'
+    ? 'http://localhost:8000/api/tickets'
+    : '/api/tickets';
 axios.defaults.withCredentials = true;
 
 export const useTicketStore = create((set) => ({
