@@ -6,7 +6,7 @@ import { useAuthStore } from '../store/authStore';
 import Hero from '../components/home/Hero';
 import ExhibitsList from '../components/exhibits/ExhibitsList';
 import TopExhibits from '../components/exhibits/TopExhibits';
-import Artworks from '../components/exhibits/Artworks';
+// import Artworks from '../components/exhibits/Artworks';
 import AdminDashboard from '../components/admin/AdminDashboard';
 
 const Home = () => {
@@ -39,7 +39,6 @@ const Home = () => {
             search={false}
           />
           <TopExhibits />
-          <Artworks />
         </>
       )}
     </div>
