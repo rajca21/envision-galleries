@@ -28,9 +28,7 @@
     "server": "file:..",
     "slick-carousel": "^1.8.1",
     "vite": "^5.4.1",
-    "zustand": "^4.5.4"
-  },
-  "devDependencies": {
+    "zustand": "^4.5.4",
     "@eslint/js": "^9.9.0",
     "@tailwindcss/line-clamp": "^0.4.4",
     "@types/react": "^18.3.3",
@@ -45,5 +43,6 @@
     "globals": "^15.9.0",
     "postcss": "^8.4.41",
     "tailwindcss": "^3.4.10"
-  }
+  },
+  "devDependencies": {}
 }
