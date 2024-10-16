@@ -25,7 +25,9 @@
     "react-router-dom": "^6.26.1",
     "react-slick": "^0.29.0",
     "react-toastify": "^10.0.5",
+    "server": "file:..",
     "slick-carousel": "^1.8.1",
+    "vite": "^5.4.1",
     "zustand": "^4.5.4"
   },
   "devDependencies": {
@@ -42,7 +44,6 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
     "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.10",
-    "vite": "^5.4.1"
+    "tailwindcss": "^3.4.10"
   }
 }
